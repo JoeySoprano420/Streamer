@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Streamer</id>
+    <version>1.0.0</version>
+    <authors>Violet Aura Creations</authors>
+    <owners>Streamer Dev Team</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Streamer: A Superlative Binary-Level Language with Extreme Performance</description>
+    <tags>Compiler, JIT, AOT, Low-Level, Performance, Streaming</tags>
+  </metadata>
+  <files>
+    <file src="bin\streamerc.exe" target="tools\" />
+    <file src="bin\streamerd.exe" target="tools\" />
+    <file src="lib\Streamer.Core.dll" target="lib\netstandard2.0\" />
+  </files>
+</package>
