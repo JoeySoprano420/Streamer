@@ -1,0 +1,14 @@
+<package>
+  <metadata>
+    <id>Streamer</id>
+    <version>1.0.0</version>
+    <authors>Violet Aura Creations</authors>
+    <description>Superlative Binary-Level Language for Extreme Performance</description>
+    <tags>Compiler, AOT, JIT, Low-Level, Performance</tags>
+  </metadata>
+  <files>
+    <file src="bin\streamerc.exe" target="tools\" />
+    <file src="bin\streamerd.exe" target="tools\" />
+    <file src="bin\streamerrt.dll" target="lib\netstandard2.0\" />
+  </files>
+</package>
