@@ -1,0 +1,51 @@
+# Build System
+cmake>=3.20
+ninja>=1.10
+make>=4.3
+
+# Compiler Toolchain
+llvm>=14.0
+clang>=14.0
+gcc>=11.2
+binutils>=2.36
+
+# Debugging & Profiling
+gdb>=11.0
+valgrind>=3.18
+perf>=5.16
+
+# Python Tooling (Optional)
+python>=3.9
+pybind11>=2.10
+numpy>=1.22
+scipy>=1.8
+
+# Package Management & Deployment
+conan>=1.50
+vcpkg>=2022.07
+
+# Web framework for handling requests (useful for API-based streaming)
+fastapi==0.109.0  
+
+# ASGI server for high-performance streaming applications
+uvicorn==0.27.0  
+
+# WebSockets for real-time data streaming
+websockets==11.0.3  
+
+# Data processing and async support
+pandas==2.1.4  
+numpy==1.26.3  
+aiohttp==3.9.3  
+
+# Kafka (if working with distributed streaming)
+confluent-kafka==2.2.0  
+
+# Redis (for pub/sub messaging in streams)
+redis==5.0.1  
+
+# Logging and monitoring
+loguru==0.7.2  
+
+# Optional: If using machine learning in streaming data
+scikit-learn==1.3.2  
